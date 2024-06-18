@@ -1,7 +1,8 @@
+//ส่วนของการเรียกใช้ Library
 #include <Wire.h>
 #include <RTClib.h>
 
-#define LED_BUILTIN 2
+#define LED_BUILTIN 2 //LED on board
 
 //สร้าง Object RTC
 RTC_DS1307 rtc;
@@ -12,6 +13,8 @@ bool isRtcOk = false;
 void setDate(int year, int month, int day);
 void setTime(int hour, int minute, int second);
 void setDateAndTime(int year, int month, int day, int hour, int minute, int second);
+//Parser ข้อความที่รับเข้ามาทาง Comport
+void processCommand(String command);
 //อ่านค่า RTC ปัจจุบัน
 void readRtc();
 
