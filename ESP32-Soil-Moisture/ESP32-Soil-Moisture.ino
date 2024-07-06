@@ -10,7 +10,7 @@ void setup() {
 
 void loop() {
   int soilMoistureValue = analogRead(soilMoisturePin);  //อ่านค่าจาก Sensor
-  int moisturePercentage = map(soilMoistureValue, dryValue, wetValue, 0, 100);
+  int moisturePercentage = map(soilMoistureValue, dryValue, wetValue, 0, 100);//แปลงค่า Anlog เป็น percentage
 
   // Print ข้อมูล Sensor วัดความชื้นในดินเป็น percentage
   Serial.print("Soil Moisture Value: ");
