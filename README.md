@@ -3,6 +3,8 @@
 |----------|
 | WROOM-32 |
 
+<img src="images/ESP32 Arduino IDE Setting.png" alt="My Image" width="480" height="600">
+
 | รายการ |
 |----------|
 | Switch |
