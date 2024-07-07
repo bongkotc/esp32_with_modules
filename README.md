@@ -5,9 +5,9 @@
 
 | รายการ |
 |----------|
-| 1.Switch |
-| 2.LED |
-| 3.RTC DS1307 |
-| 4.RTC DS1307 |
-| 5.DHT11 |
-| 6.SD |
+| Switch |
+| LED |
+| RTC DS1307 |
+| Soil Moisture |
+| DHT11 |
+| SD |
