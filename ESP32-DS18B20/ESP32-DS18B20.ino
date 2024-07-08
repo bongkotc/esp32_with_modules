@@ -21,7 +21,7 @@ void setup(void) {
 void loop(void) {
   sensors.requestTemperatures(); //ส่งคำสั่งขออ่านค่าอุณหภูมิ
 
-  Serial.print("Tesmperature is: ");
+  Serial.print("Temperature is: ");
   Serial.println(sensors.getTempCByIndex(0)); //อ่านค่า Sensor ตัวแรกที่พบ
   
   delay(1000);//หน่วงเวลาเพื่ออ่านค่าอุณหภูิมทุกๆ 1 วินาที
